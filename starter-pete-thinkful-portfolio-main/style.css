@@ -1,0 +1,193 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  background-color: #eae2b7;
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+
+/* Header */
+header {
+  text-align: center;
+}
+
+/* Containers */
+div {
+  background-color: #eae2b7;
+  margin: auto;
+  width: 600px;
+}
+
+article {
+  padding: 50px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.5;
+}
+
+/* Links */
+a:link {
+  color: #d62828;
+}
+
+a:hover {
+  color: #f77f00;
+}
+
+nav a {
+  padding-left: 20px;
+}
+
+/* Images */
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+.image-circle {
+  border: 2px solid #003049;
+  border-radius: 50%;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+
+/* Other page elements */
+hr {
+  border: 1px solid black;
+}
+
+
+
+
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 7rem;
+}
+
+.cont1 {
+  padding: 0px;
+  margin: 0px 0.5rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.cont1 a {
+  color: #000;
+  text-decoration: none;
+}
+
+.container2{
+  display: block;
+  justify-content: right;
+  
+  
+ .cont2{
+text-align: center
+ }
+
+}
+.img2 {
+  float: left;
+  border-radius: 50%;
+  margin-right: 60px;
+}
+
+.para2{
+  text-align: left;
+}
+
+
+
+/* portfolio */
+
+/* Portfolio section style */
+/* .port3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 340px;
+  overflow: hidden;
+  background-color: #221e1f;
+  opacity: 0.8;
+  position: relative;
+  padding: 130px 40px;
+  box-shadow: 2px 2px 6px #000000;
+} */
+
+
+#portfolio{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+  
+  
+}
+
+.port3{
+
+padding: 3px;
+margin: 40px;
+font-size: 1.5rem;
+
+
+
+}
+
+section.port3 {
+  margin: 10px;
+ 
+}
+
+.descrip{
+  font-size: 14px;
+}
+
+.backimage{
+  flex: 1;
+  margin:auto;
+
+}
+
+/* .container1{
+  display: flex;
+  flex-direction: row;
+  border: blue 2px solid;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.cont1{
+
+  border: blue 2px solid;
+  justify-content: center;
+  align-content: center;
+
+  
+
+} */
